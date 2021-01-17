@@ -1,0 +1,28 @@
+ .m-backdrop {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+      .custom-modal {
+        min-width: 50%;
+        background-color: white;
+        margin: 0 auto;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        min-height: 300px;
+      }
+      .form-text {
+        display: none;
+      }
+      .hide {
+        display: none;
+      }
+      .show {
+        display: block;
+      }
